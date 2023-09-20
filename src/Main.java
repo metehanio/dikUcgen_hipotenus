@@ -13,7 +13,14 @@ public class Main {
         System.out.print("İkinci kenarı giriniz : ");
         kenar2 = giris.nextDouble();
 
-        double hipotenus = Math.sqrt( (kenar1*kenar1) + (kenar2*kenar2) );
-        System.out.print("Hipotenüs : " + hipotenus);
+        double hipotenus;
+
+        hipotenus = Math.sqrt( (kenar1*kenar1) + (kenar2*kenar2) );
+        System.out.println("Hipotenüs : " + hipotenus);
+
+        double alan;
+
+        alan = ((kenar1*kenar2)/2);
+        System.out.println("Üçgenin alanı : " + alan);
     }
 }
